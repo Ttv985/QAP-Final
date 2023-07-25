@@ -12,4 +12,5 @@ QAP_28
 до него при запуске через терминал.
 python -m pytest -v --driver Chrome --driver-path C:\chromedriver\chromedriver.exe .\tests\test_auth_page.py
 
-
+Запуск автотестов выполнялся в PyCharm IDE через терминал. Для запуска тестов необходимо установить библиотеки командой в терминале: pip 
+install -r requirements.txt. Перед запуском тестов в файле settings необходимо указать действующий логин, пароль.
